@@ -1,0 +1,107 @@
+#index_bg {
+  background-image: url("../img/aadaa.jpg");
+  /* background-image: url("http://source.unsplash.com/1350x300/?airline"); */
+  object-fit: cover;
+  background-size: 100vw auto;
+  height: 110vh;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+#searchbar::placeholder {
+  color: white;
+}
+
+#_2nd_panel {
+  background-color: rgb(129, 31, 31);
+}
+
+#about_us {
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 175px;
+}
+
+#partners {
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#flightcard {
+  z-index: 3;
+  position: absolute;
+  top: 75%;
+  left: 7%;
+}
+
+#_4thpanel {
+  background-image: url(../img/airplane-window.jpg);
+  background-size: cover;
+  padding: 150px 80px 150px 80px;
+}
+
+#contactus {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: rgb(255, 255, 255);
+  border-color: rgb(218, 218, 218);
+}
+
+#newsletter {
+  background-position: 80%;
+
+  height: auto;
+  opacity: 0.9;
+}
+
+#footerpanel {
+  background-color: rgb(129, 31, 31);
+  padding: 50px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: gainsboro;
+}
+
+#navbar1 {
+  background-color: rgba(24, 24, 24, 0.788);
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  display: block;
+  transition: top 0.2s;
+  z-index: 5;
+}
+
+a.fa {
+  opacity: 0.7;
+  font-size: 25px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px 0px 0px;
+  color: white;
+}
+
+.tablink {
+  background-color: rgb(167, 0, 0);
+  color: white;
+}
+.tabcontent {
+  color: rgb(0, 0, 0);
+  display: none;
+  min-height: 220px;
+  max-height: 230px;
+}
+#book {
+  background-color: rgb(255, 255, 255);
+}
+#check {
+  background-color: rgb(255, 255, 255) n;
+}
